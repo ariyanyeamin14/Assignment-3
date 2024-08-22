@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Assignment-3</title>
     <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href="style.css">
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -26,7 +27,12 @@
       <style>
         .manrope{
             font-family: "Manrope", sans-serif
-        };
+        }
+        #connect{
+            background-image: linear-gradient(to bottom, rgba(242, 242, 242, 0.53), rgba(242, 242, 242, 0.53)), url('assets/bg.jpg');
+            background-position: center;
+            background-size: cover;
+         }
       </style>
       <script src="https://kit.fontawesome.com/6c45b74f82.js" crossorigin="anonymous"></script>
 </head>
@@ -230,9 +236,78 @@
 
      </section>
 
+    <!-- team section -->
+     <section  class="bg-[#f2f2f2] text-center">
+         <!-- team container -->
+          <div class="w-[90%] lg:w-[85%] mx-auto space-y-8 py-10 lg:py-20">
+            <!-- team btn -->
+            <div class="bg-[#acef5f61] rounded-full px-4 py-3 w-fit text-center mx-auto mb-10">
+               <i class="fa-solid fa-arrow-right inline"></i> 
+               <p class="inline font-bold">Our Teams</p>
+            </div>
+            <!-- team card container -->
+            <div class="grid grid-cols-1 lg:grid-cols-4 gap-6">
+               <!-- team card 1-->
+               <div class="card bg-base-100 shadow-xl border-2 border-[#26a81570]">
+                  <figure>
+                    <img src="assets/team-3.png" alt="">
+                  </figure>
+                  <div class="card-body">
+                    <h2 class="card-title font-bold text-2xl">
+                      Jacob Milton
+                      <div class="badge badge-secondary bg-[#1dc931] border-default"> 5 years</div>
+                    </h2>
+                    <p class="text-left text-xl font-semibold border-1 border-default  rounded-full p-1">Head of Architect Engineers</p>
+                  </div>
+                </div>
+               <!-- team card 2-->
+               <div class="card bg-base-100 shadow-xl border-2 border-[#26a81570]">
+               <figure>
+                 <img src="assets/team-4.png" alt="">
+               </figure>
+               <div class="card-body ">
+                 <h2 class="card-title font-bold text-2xl">
+                   Sowaty Roy
+                   <div class="badge badge-secondary bg-[#1dc931] border-default">8 years</div>
+                 </h2>
+                 <p class="text-left text-xl font-semibold border-1 border-default  rounded-full p-1">Head of Project Manager</p>
+               </div>
+               </div>
+             <!-- team card 3-->
+               <div class="card bg-base-100 shadow-xl border-2 border-[#26a81570]">
+                  <figure>
+                    <img src="assets/team-1.png" alt="">
+                  </figure>
+                  <div class="card-body ">
+                    <h2 class="card-title font-bold text-2xl">
+                      Michel Wetly
+                      <div class="badge badge-secondary bg-[#1dc931] border-default">8 years</div>
+                    </h2>
+                    <p class="text-left text-xl font-semibold border-1 border-default  rounded-full p-1">Head  of Labor <br> Managers</p>
+                  </div>
+                </div>
+               <!-- team card 4-->
+               <div class="card bg-base-100 shadow-xl border-2 border-[#26a81570]">
+                  <figure>
+                    <img src="assets/team-2.png" alt="">
+                  </figure>
+                  <div class="card-body ">
+                    <h2 class="card-title font-bold text-2xl">
+                      Jessy Jeba
+                      <div class="badge badge-secondary bg-[#1dc931] border-default">2 years</div>
+                    </h2>
+                    <p class="text-left text-xl font-semibold border-1 border-default  rounded-full p-1">Head of Interior Designers</p>
+                  </div>
+                </div>
+         
+            </div>
+          </div>
+     </section>
+    
+    
     <!-- connect section -->
-     <section id="connect" class="border-4 lg:border-8 border-white py-10 lg:py-20 bg-cover bg-center bg-opacity-30 " 
-     style="background-image: url('assets/bg.jpg')" >
+     <section id="connect" class="border-4 lg:border-8 border-white py-10 lg:py-20 " 
+      >
       <!-- connect cotainer -->
        <div class="w-[90%] lg:w-[85%] mx-auto space-y-8">
          <!-- connect btn -->
